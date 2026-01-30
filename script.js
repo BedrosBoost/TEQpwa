@@ -88,6 +88,7 @@ function dealNewRound() {
     gameState = 'SELECTION';
     renderCarousel(currentHand);
     resetOverlays();
+    toggleOverlays();
     
     // Highlight the first card immediately
     setTimeout(applyActiveVisuals, 100);

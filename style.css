@@ -1,0 +1,278 @@
+/* Fix for Edge-to-Edge Black Background */
+html {
+    background-color: #111;
+    overscroll-behavior: none; /* Stops "bounce" effect on whole page */
+}
+
+body {
+    font-family: -apple-system, sans-serif;
+    background-color: #111;
+    color: white;
+    margin: 0;
+    /* FIX 1: Lock Vertical Scroll on Body */
+    overflow: hidden;
+    height: 100vh;
+    width: 100%; /* Changed from 100vw to prevent padding overflow */
+    
+    /* FIX 2: Handle Notch Correctly without shifting center */
+    box-sizing: border-box; 
+    padding-left: env(safe-area-inset-left);
+    padding-right: env(safe-area-inset-right);
+}
+
+/* --- FORCE LANDSCAPE --- */
+#rotate-message {
+    display: none;
+    position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+    background: #000;
+    z-index: 9999;
+    flex-direction: column; justify-content: center; align-items: center;
+    text-align: center;
+}
+.rotate-icon { font-size: 50px; margin-bottom: 20px; }
+
+@media (orientation: portrait) {
+    #rotate-message { display: flex; }
+    #game-screen, #start-screen { display: none !important; }
+}
+
+/* --- SCREENS --- */
+.screen { display: none; width: 100%; height: 100%; position: relative; }
+.screen.active { display: flex; flex-direction: column; align-items: center; justify-content: center; }
+
+/* --- CAROUSEL (NATIVE SWIPE) --- */
+#carousel-track {
+    display: flex;
+    overflow-x: auto;
+    overflow-y: hidden; /* Strict Vertical Lock */
+    
+    /* FIX 3: THE MAGIC SWIPE LOCK */
+    touch-action: pan-x; /* Tells browser: "Only listen to Left/Right swipes" */
+    
+    scroll-snap-type: x mandatory;
+    scroll-snap-stop: always;
+    -webkit-overflow-scrolling: auto;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    
+    /* Centering Math: 
+       Card is approx 70-80% width. 
+       Padding 10% on sides centers it nicely while showing peek. 
+    */
+    padding: 0 10%; 
+    box-sizing: border-box;
+    gap: 20px; 
+    
+    scrollbar-width: none; 
+    -ms-overflow-style: none;
+    pointer-events: auto;
+    z-index: 1; 
+}
+#carousel-track::-webkit-scrollbar { display: none; }
+
+/* CHANGE 2: NEW CLASS FOR SINGLE CARD CENTERING */
+#carousel-track.force-center {
+    justify-content: center; /* Forces the single card to the middle */
+    padding-left: 0; /* Remove side padding so it centers perfectly */
+    padding-right: 0;
+}
+
+/* THE CARD */
+.card {
+    /* Flex Basis must match max-width logic to prevent offset */
+    height: 90vh;
+    flex: 0 0 auto; 
+    width: auto;
+    max-width: 75vw; 
+    
+    aspect-ratio: 3.5 / 2.5;
+    background: white;
+    color: #003f49;
+    border-radius: 15px;
+    scroll-snap-align: center; 
+    position: relative;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.8);
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    box-sizing: border-box;
+    pointer-events: auto; 
+    
+    /* FIX 4: Prevent text inside card from causing scroll */
+    overflow: hidden; 
+}
+
+.card.active-snap { border: 3px solid #007aff; }
+
+/* --- CONTENT --- */
+.category-label { text-wrap: balance; text-align: center; font-size: 2vmin; color: #666; font-weight: bold; text-transform: none; margin-bottom: 5px; }
+.content-box { border: none; padding: 5px; display: flex; align-items: center; justify-content: center; text-align: center; }
+.arrow-box {
+    flex: 1 1 auto; margin-bottom: 10px; background: white; border: none;
+    clip-path: polygon(0% 0%, 95% 0%, 100% 50%, 95% 100%, 0% 100%);
+    padding-right: 0px; font-size: 5vmin; font-weight: bold; text-transform: none; min-height: 0;
+}
+.question-box { flex: 1 2 auto; margin-bottom: 10px; font-size: 5vmin; font-weight: bold; background: white; min-height: 0; }
+/* --- FOOTER SECTION --- */
+.footer-section {
+    flex: 0 0 auto; /* Fills remaining space */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 5px;
+    padding: 10px;
+}
+
+/* 1. The Single Line of Text */
+.footer-note {
+    text-align: left;
+    font-size: 4vmin;
+    font-weight: bold;
+    padding: 0% 5%;
+    color: #45bfad;
+    text-transform: none;
+    letter-spacing: 1px;
+    margin-bottom: -20px;
+    margin-left: 7px;
+}
+
+/* 2. The Graphics Container */
+.footer-graphics {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    margin-bottom: 5px;
+}
+
+.footer-group {
+    display: flex;
+    flex-direction: column;
+    width: 47%; /* Each side takes almost half width */
+    height: 100%;
+}
+
+/* LEFT GROUP: Align Diamond to the Left */
+.footer-group:first-child {
+    align-items: flex-start; /* Pushes content to the Left */
+}
+
+/* RIGHT GROUP: Align Diamond to the Right */
+.footer-group:last-child {
+    align-items: flex-end; /* Pushes content to the Right */
+}
+
+/* THE DIAMONDS */
+.diamond-shape {
+
+/*
+    width: 50px;
+    height: 70px;
+*/
+    width: 6.5vh;
+    height: 9.1vh;
+    min-width: 35px;
+    min-height: 49px;
+    border: none;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5vmin;
+    font-weight: bold;
+    z-index: 2; /* Sits on top */
+    margin-bottom: -35px; /* Pulls it DOWN to overlap the arrow box */
+}
+
+/* Different Colors for Left/Right Diamonds */
+.diamond-left { background: #faa63b; transform: rotate(-15deg); margin-left: -10px; }
+.diamond-right { background: #f58529; transform: rotate(15deg); margin-right: -10px; }
+
+/* Rotate text inside diamond back to normal */
+.diamond-shape::before { content: attr(data-num); transform: rotate(0deg); }
+
+
+/* THE ARROW TEXT BOXES */
+.arrow-label {
+    width: 100%;
+    flex-grow: 1;
+    padding: 20px 10px 10px 10px; /* Extra top padding for the overlapping diamond */
+    background: #eee;
+    color: white;
+    font-weight: bold;
+    font-size: 3.5vmin;
+    text-wrap: balance;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50px;    
+}
+
+/* SHAPE: Left Pointing Arrow */
+.left-arrow {
+    background: #45bfad; 
+    /* Points Left: <====] */
+    clip-path: polygon(90% 0%, 95% 50%, 90% 100%, 0% 100%, 0 50%, 0% 0%);
+    padding-right: 12%; /* Push text away from the pointy tip */
+}
+
+/* SHAPE: Right Pointing Arrow */
+.right-arrow {
+    background: #003f49; 
+    /* Points Right: [====> */
+    clip-path: polygon(100% 0, 100% 50%, 100% 100%, 10% 100%, 15% 50%, 10% 0%);
+    padding-left: 12%; /* Push text away from the pointy tip */
+}
+
+/* 3. Gradient Bar (Kept the same) */
+.gradient-bar {
+    width: 100%;
+    height: 12px;
+    border: none;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right, #faa63b, #f58529);
+    display: flex;
+}
+
+/* --- OVERLAYS --- */
+.overlay-ui {
+    position: fixed;
+    left: 0; width: 100%;
+    display: flex; justify-content: center; align-items: center;
+    transition: opacity 0.3s, transform 0.3s;
+    z-index: 20; 
+    pointer-events: none; 
+    opacity: 0; 
+    padding-left: env(safe-area-inset-left); /* Adjust UI controls for Notch */
+    padding-right: env(safe-area-inset-right);
+    box-sizing: border-box;
+}
+.overlay-ui.visible {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+#top-overlay { top: 0; height: 60px; background: linear-gradient(to bottom, rgba(0,0,0,0.8), transparent); color: white; gap: 20px; transform: translateY(-100%); }
+#top-overlay.visible { transform: translateY(0); }
+
+#bottom-overlay { bottom: 0; height: 80px; background: linear-gradient(to top, rgba(0,0,0,0.8), transparent); transform: translateY(100%); }
+#bottom-overlay.visible { transform: translateY(0); }
+
+.btn-pick, .btn-next { padding: 15px 40px; border-radius: 30px; font-size: 20px; font-weight: bold; cursor: pointer; border: none; box-shadow: 0 5px 15px rgba(0,0,0,0.5); }
+.btn-pick { background: #34c759; color: white; }
+.btn-next { background: #ff9500; color: white; }
+.hidden { display: none !important; }
+.nav-arrow { background: none; border: none; color: white; font-size: 30px; cursor: pointer; }
+
+#start-screen h1 { font-size: 40px; margin-bottom: 30px; text-transform: uppercase; letter-spacing: 2px; }
+.menu-option { margin-bottom: 20px; font-size: 18px; text-align: center; }
+select { padding: 10px; font-size: 18px; border-radius: 5px; }
+
+/* Modal */
+#modal-overlay { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.8); z-index: 100; display: flex; justify-content: center; align-items: center; }
+#modal-overlay.modal-hidden { display: none !important; }
+.modal-box { background: white; color: black; padding: 30px; border-radius: 20px; text-align: center; width: 300px; }
+.btn-primary { background: #007aff; color: white; border: none; padding: 10px 20px; font-size: 16px; border-radius: 5px; margin: 10px; cursor: pointer; }
+.btn-secondary { background: #555; color: white; border: none; padding: 10px 20px; font-size: 16px; border-radius: 5px; cursor: pointer; }

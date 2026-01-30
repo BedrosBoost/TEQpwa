@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+    <title>That Escalated Quickly</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
+</head>
+<body>
+
+    <div id="rotate-message">
+        <div class="rotate-icon">⟳</div>
+        <p>Please rotate your device to play</p>
+    </div>
+
+    <div id="start-screen" class="screen active">
+        <h1>That Escalated Quickly</h1>
+        
+        <div class="menu-option">
+            <label>Cards per Hand:</label>
+            <select id="hand-size-select">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3" selected>3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+            </select>
+        </div>
+
+        <div class="menu-option">
+            <label>Category:</label>
+            <div class="checkbox-group" style="text-align: left; display: inline-block;">
+        
+                <div>
+                    <input type="checkbox" id="cat-series1" value="Series 1" checked>
+                    <label for="cat-series1">Series 1</label>
+                </div>
+
+                                          <div style="display: none;">
+                                                      <input type="checkbox" id="cat-series2" value="Series 2" checked>
+                                                      <label for="cat-series2">Series 2</label>
+                                          </div>
+
+            </div>
+        </div>
+
+        <button class="btn-primary" onclick="startGame()">START GAME</button>
+    </div>
+
+    <div id="game-screen" class="screen" onclick="handleScreenTap(event)">
+        
+        <div id="top-overlay" class="overlay-ui">
+            <button class="nav-arrow" onclick="navHistory(-1)">&#9664;</button>
+            <span id="nav-status">HISTORY</span>
+            <button class="nav-arrow" onclick="navHistory(1)">&#9654;</button>
+        </div>
+
+        <div id="carousel-track" onscroll="detectActiveCard()">
+            </div>
+
+        <div id="bottom-overlay" class="overlay-ui">
+            <button id="btn-pick" class="btn-pick" onclick="pickCurrentCard()">PICK THIS CARD</button>
+            <button id="btn-next" class="btn-next hidden" onclick="finishRound()">NEXT ROUND &#10140;</button>
+        </div>
+
+    </div>
+
+    <div id="modal-overlay" class="modal-hidden">
+        <div class="modal-box">
+            <h2>Uh Oh!</h2>
+            <p id="modal-msg">Out of cards!</p>
+            <div class="modal-buttons">
+                <button id="btn-shuffle" class="btn-primary" onclick="shuffleRejects()">Shuffle Rejects & Continue</button>
+                <button class="btn-secondary" onclick="location.reload()">Return to Menu</button>
+            </div>
+        </div>
+    </div>
+    <script>
+      // Check if browser supports Service Workers
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('./sw.js')
+            .then(reg => console.log('Service Worker Registered!'))
+            .catch(err => console.log('Service Worker Failed:', err));
+        });
+      }
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,2402 @@
+[
+    {
+        "id":1,
+        "category":"Series 1",
+        "statement":"Someone offered me a million dollars, but there's a catch.",
+        "question":"What is it?",
+        "bottom_left":"LEAST likely I'll accept",
+        "bottom_right":"MOST likely I'll accept"
+    },
+    {
+        "id":2,
+        "category":"Series 1",
+        "statement":"Someone just gave me ten million dollars.",
+        "question":"What did I do to deserve it?",
+        "bottom_left":"LEAST deserving",
+        "bottom_right":"MOST deserving"
+    },
+    {
+        "id":3,
+        "category":"Series 1",
+        "statement":"My local bakery just started carrying a new flavor of cookie.",
+        "question":"What is it?",
+        "bottom_left":"LEAST likely to be discontinued",
+        "bottom_right":"MOST likely to be discontinued"
+    },
+    {
+        "id":4,
+        "category":"Series 1",
+        "statement":"I'm making a new gourmet ice cream flavor.",
+        "question":"What is it?",
+        "bottom_left":"LEAST delicious",
+        "bottom_right":"MOST delicious"
+    },
+    {
+        "id":5,
+        "category":"Series 1",
+        "statement":"My weird cousin just had a new baby.",
+        "question":"What did they name it?",
+        "bottom_left":"LEAST annoying name",
+        "bottom_right":"MOST annoying name"
+    },
+    {
+        "id":6,
+        "category":"Series 1",
+        "statement":"My friend introduced me to their new baby, and it is UGLY.",
+        "question":"What should I say to my friend?",
+        "bottom_left":"LEAST honest",
+        "bottom_right":"MOST honest"
+    },
+    {
+        "id":7,
+        "category":"Series 1",
+        "statement":"One of my household appliances just became self-aware!",
+        "question":"Which appliance is it?",
+        "bottom_left":"LEAST likely to destroy humanity",
+        "bottom_right":"MOST likely to destroy humanity"
+    },
+    {
+        "id":8,
+        "category":"Series 1",
+        "statement":"They're building a statue in my honor.",
+        "question":"What's it made of?",
+        "bottom_left":"LEAST impressive",
+        "bottom_right":"MOST impressive"
+    },
+    {
+        "id":9,
+        "category":"Series 1",
+        "statement":"I just won the gold medal for a new sporting event!",
+        "question":"What's the event?",
+        "bottom_left":"LEAST impressive",
+        "bottom_right":"MOST impressive"
+    },
+    {
+        "id":10,
+        "category":"Series 1",
+        "statement":"I've invented a new sport.",
+        "question":"What is it?",
+        "bottom_left":"LEAST dangerous",
+        "bottom_right":"MOST dangerous"
+    },
+    {
+        "id":11,
+        "category":"Series 1",
+        "statement":"I asked my crushed to sign my yearbook.",
+        "question":"What did they write?",
+        "bottom_left":"LEAST memorable",
+        "bottom_right":"MOST memorable"
+    },
+    {
+        "id":12,
+        "category":"Series 1",
+        "statement":"My crush just passed me a note in the middle of class.",
+        "question":"What does it say?",
+        "bottom_left":"LEAST exciting",
+        "bottom_right":"MOST exciting"
+    },
+    {
+        "id":13,
+        "category":"Series 1",
+        "statement":"I'm a supervillain, and I've just revealed my evil plan.",
+        "question":"What is it?",
+        "bottom_left":"LEAST likely to end the world",
+        "bottom_right":"MOST likely to end the world"
+    },
+    {
+        "id":14,
+        "category":"Series 1",
+        "statement":"I've been permanently banned from my favorite restaurant.",
+        "question":"What did I do?",
+        "bottom_left":"LEAST justified ban",
+        "bottom_right":"MOST justified ban"
+    },
+    {
+        "id":15,
+        "category":"Series 1",
+        "statement":"I'm fixing up my house.",
+        "question":"What did I find in the wall during renovations?",
+        "bottom_left":"LEAST likely I'll burn the house down",
+        "bottom_right":"MOST likely I'll burn the house down"
+    },
+    {
+        "id":16,
+        "category":"Series 1",
+        "statement":"I'm a government agent who must deny the existence of UFOs.",
+        "question":"What should I say crash-landed instead?",
+        "bottom_left":"LEAST suspicious",
+        "bottom_right":"MOST suspicious"
+    },
+    {
+        "id":17,
+        "category":"Series 1",
+        "statement":"I lost my wallet at a street fair.",
+        "question":"How?",
+        "bottom_left":"LEAST likely it was a scam",
+        "bottom_right":"MOST likely it was a scam"
+    },
+    {
+        "id":18,
+        "category":"Series 1",
+        "statement":"My partner and I are expecting a child.",
+        "question":"How do we reveal the baby's gender?",
+        "bottom_left":"LEAST likely to cause a disaster",
+        "bottom_right":"MOST likely to cause a disaster"
+    },
+    {
+        "id":19,
+        "category":"Series 1",
+        "statement":"There's something I always carry with me no matter where I go.",
+        "question":"What is it?",
+        "bottom_left":"LEAST useful",
+        "bottom_right":"MOST useful"
+    },
+    {
+        "id":20,
+        "category":"Series 1",
+        "statement":"I'm looking to adopt a dog, and I found one that's perfect in almost every way, but it has one flaw.",
+        "question":"What is it?",
+        "bottom_left":"LEAST likely I'll keep looking",
+        "bottom_right":"MOST likely I'll keep looking"
+    },
+    {
+        "id":21,
+        "category":"Series 1",
+        "statement":"I'm on a road trip and drive by a roadside attraction.",
+        "question":"What is it?",
+        "bottom_left":"LEAST likely to make me stop",
+        "bottom_right":"MOST likely to make me stop"
+    },
+    {
+        "id":22,
+        "category":"Series 1",
+        "statement":"It's Halloween, and I got something unusual while trick-or-treating.",
+        "question":"What did I get?",
+        "bottom_left":"LEAST likely I'll need dental work",
+        "bottom_right":"MOST likely I'll need dental work"
+    },
+    {
+        "id":23,
+        "category":"Series 1",
+        "statement":"I'm jumping out of an airplane.",
+        "question":"When I pull the ripcord, what comes out of my pack?",
+        "bottom_left":"LEAST helpful",
+        "bottom_right":"MOST helpful"
+    },
+    {
+        "id":24,
+        "category":"Series 1",
+        "statement":"I'm a fugitive on the run from the law, and I can download one skill immediately into my brain.",
+        "question":"What skill should I learn?",
+        "bottom_left":"LEAST likely to help me escape",
+        "bottom_right":"MOST likely to help me escape"
+    },
+    {
+        "id":25,
+        "category":"Series 1",
+        "statement":"I'm on the front page of the newspaper.",
+        "question":"Why?",
+        "bottom_left":"LEAST heroic",
+        "bottom_right":"MOST heroic"
+    },
+    {
+        "id":26,
+        "category":"Series 1",
+        "statement":"I'm waiting in line for something I pre-ordered.",
+        "question":"What is it?",
+        "bottom_left":"LEAST exciting thing",
+        "bottom_right":"MOST exciting thing"
+    },
+    {
+        "id":27,
+        "category":"Series 1",
+        "statement":"My heater just broke, and it's the middle of winter.",
+        "question":"How should I stay warm?",
+        "bottom_left":"LEAST effective",
+        "bottom_right":"MOST effective"
+    },
+    {
+        "id":28,
+        "category":"Series 1",
+        "statement":"I'm a pirate making a treasure map.",
+        "question":"Where should I put the treasure?",
+        "bottom_left":"LEAST likely I'll find the treasure again",
+        "bottom_right":"MOST likely I'll find the treasure again"
+    },
+    {
+        "id":29,
+        "category":"Series 1",
+        "statement":"I got a ticket for speeding.",
+        "question":"How should I talk my way out of it in court?",
+        "bottom_left":"LEAST likely to get it dismissed",
+        "bottom_right":"MOST likely to get it dismissed"
+    },
+    {
+        "id":30,
+        "category":"Series 1",
+        "statement":"I bought a used printer, and the moment I plugged it in, it printed something.",
+        "question":"What did it print?",
+        "bottom_left":"LEAST interesting",
+        "bottom_right":"MOST interesting"
+    },
+    {
+        "id":31,
+        "category":"Series 1",
+        "statement":"Someone just went into labor, and I'm the only one around to help.",
+        "question":"What should I do?",
+        "bottom_left":"LEAST helpful",
+        "bottom_right":"MOST helpful"
+    },
+    {
+        "id":32,
+        "category":"Series 1",
+        "statement":"I need to use public Wi-Fi.",
+        "question":"What's the name of the first network I see?",
+        "bottom_left":"LEAST likely I'll connect to it",
+        "bottom_right":"MOST likely I'll connect to it"
+    },
+    {
+        "id":33,
+        "category":"Series 1",
+        "statement":"I just installed an upgrade for my car.",
+        "question":"What is it?",
+        "bottom_left":"LEAST useful",
+        "bottom_right":"MOST useful"
+    },
+    {
+        "id":34,
+        "category":"Series 1",
+        "statement":"I'm the ring bearer at my friend's wedding, but I've lost the rings.",
+        "question":"What do I replace them with?",
+        "bottom_left":"LEAST likely it will be noticed",
+        "bottom_right":"MOST likely it will be noticed"
+    },
+    {
+        "id":35,
+        "category":"Series 1",
+        "statement":"I'm the main character of a romantic comedy.",
+        "question":"How did I meet my love interest?",
+        "bottom_left":"LEAST cute",
+        "bottom_right":"MOST cute"
+    },
+    {
+        "id":36,
+        "category":"Series 1",
+        "statement":"I'm the captain of a pirate ship.",
+        "question":"What's on my ship's flag?",
+        "bottom_left":"LEAST intimidating",
+        "bottom_right":"MOST intimidating"
+    },
+    {
+        "id":37,
+        "category":"Series 1",
+        "statement":"I'm stuck.",
+        "question":"Where am I?",
+        "bottom_left":"LEAST likely I'll need to be rescued",
+        "bottom_right":"MOST likely I'll need to be rescued"
+    },
+    {
+        "id":38,
+        "category":"Series 1",
+        "statement":"I'm visiting a historic grave at the cemetery.",
+        "question":"What do I leave on it?",
+        "bottom_left":"LEAST respectful",
+        "bottom_right":"MOST respectful"
+    },
+    {
+        "id":39,
+        "category":"Series 1",
+        "statement":"I'm putting a new job title on my business card.",
+        "question":"What is it?",
+        "bottom_left":"LEAST impressive",
+        "bottom_right":"MOST impressive"
+    },
+    {
+        "id":40,
+        "category":"Series 1",
+        "statement":"My mom embroiders something into the back of all my underwear.",
+        "question":"What does it say?",
+        "bottom_left":"LEAST embarrassing",
+        "bottom_right":"MOST embarrassing"
+    },
+    {
+        "id":41,
+        "category":"Series 1",
+        "statement":"Zombies are attacking, and I can only use something from this room to stop them.",
+        "question":"What do I use?",
+        "bottom_left":"LEAST effective",
+        "bottom_right":"MOST effective"
+    },
+    {
+        "id":42,
+        "category":"Series 1",
+        "statement":"I've been transformed into my Halloween costume, and I'm stuck like this for the rest of the night.",
+        "question":"What am I?",
+        "bottom_left":"LEAST likely to ruin my night",
+        "bottom_right":"MOST likely to ruin my night"
+    },
+    {
+        "id":43,
+        "category":"Series 1",
+        "statement":"I bought an old safe at an antique shop.",
+        "question":"What's inside?",
+        "bottom_left":"LEAST exciting thing",
+        "bottom_right":"MOST exciting thing"
+    },
+    {
+        "id":44,
+        "category":"Series 1",
+        "statement":"I dug up a time capsule in my backyard.",
+        "question":"What's inside?",
+        "bottom_left":"LEAST shocking",
+        "bottom_right":"MOST shocking"
+    },
+    {
+        "id":45,
+        "category":"Series 1",
+        "statement":"I'm not wearing shoes, and I just stepped on something.",
+        "question":"What was it?",
+        "bottom_left":"LEAST painful",
+        "bottom_right":"MOST painful"
+    },
+    {
+        "id":46,
+        "category":"Series 1",
+        "statement":"I have something stuck in my sock.",
+        "question":"What is it?",
+        "bottom_left":"LEAST noticeable",
+        "bottom_right":"MOST noticeable"
+    },
+    {
+        "id":47,
+        "category":"Series 1",
+        "statement":"Someone invited me to a party, but I don't want to go.",
+        "question":"What's my excuse to get out of it?",
+        "bottom_left":"LEAST suspicious",
+        "bottom_right":"MOST suspicious"
+    },
+    {
+        "id":48,
+        "category":"Series 1",
+        "statement":"I'm the prime suspect in a crime that happened last night.",
+        "question":"What's my alibi?",
+        "bottom_left":"LEAST suspicious",
+        "bottom_right":"MOST suspicious"
+    },
+    {
+        "id":49,
+        "category":"Series 1",
+        "statement":"I'm on a plane, and the captain makes an announcement as we take off.",
+        "question":"What do they say?",
+        "bottom_left":"LEAST assuring",
+        "bottom_right":"MOST assuring"
+    },
+    {
+        "id":50,
+        "category":"Series 1",
+        "statement":"I got my kite stuck in a tree, and I've come up with a way to get it down.",
+        "question":"What bit me?",
+        "bottom_left":"LEAST likely I'll hurt myself",
+        "bottom_right":"MOST likely I'll hurt myself"
+    },
+    {
+        "id":51,
+        "category":"Series 1",
+        "statement":"A time-traveler came back in time to get my help.",
+        "question":"What is their mission?",
+        "bottom_left":"LEAST likely I'll help them",
+        "bottom_right":"MOST likely I'll help them"
+    },
+    {
+        "id":52,
+        "category":"Series 1",
+        "statement":"Something followed me home.",
+        "question":"What is it?",
+        "bottom_left":"LEAST likely I'll keep it",
+        "bottom_right":"MOST likely I'll keep it"
+    },
+    {
+        "id":53,
+        "category":"Series 1",
+        "statement":"I discovered a long lost family secret.",
+        "question":"What is it?",
+        "bottom_left":"LEAST devastating",
+        "bottom_right":"MOST devastating"
+    },
+    {
+        "id":54,
+        "category":"Series 1",
+        "statement":"I broke a bone.",
+        "question":"How did I do it?",
+        "bottom_left":"LEAST cool story",
+        "bottom_right":"MOST cool story"
+    },
+    {
+        "id":55,
+        "category":"Series 1",
+        "statement":"Something at the store was discounted to 99% off.",
+        "question":"What is it?",
+        "bottom_left":"LEAST likely I'll buy it",
+        "bottom_right":"MOST likely I'll buy it"
+    },
+    {
+        "id":56,
+        "category":"Series 1",
+        "statement":"I'm at my high school reunion when I see a bully and decide to tell them what I think of them.",
+        "question":"What should I say?",
+        "bottom_left":"LEAST mature",
+        "bottom_right":"MOST mature"
+    },
+    {
+        "id":57,
+        "category":"Series 1",
+        "statement":"I just won the lottery.",
+        "question":"What's the first thing I do?",
+        "bottom_left":"LEAST flashy",
+        "bottom_right":"MOST flashy"
+    },
+    {
+        "id":58,
+        "category":"Series 1",
+        "statement":"I just spent a million dollars on one thing.",
+        "question":"What did I buy?",
+        "bottom_left":"LEAST worth it",
+        "bottom_right":"MOST worth it"
+    },
+    {
+        "id":59,
+        "category":"Series 1",
+        "statement":"I'm breaking into a bank vault.",
+        "question":"What tool should I use to get through the door?",
+        "bottom_left":"LEAST useful",
+        "bottom_right":"MOST useful"
+    },
+    {
+        "id":60,
+        "category":"Series 1",
+        "statement":"My friends and I are planning a heist.",
+        "question":"Where are we breaking into?",
+        "bottom_left":"LEAST risky",
+        "bottom_right":"MOST risky"
+    },
+    {
+        "id":61,
+        "category":"Series 1",
+        "statement":"I've been asked to write the motto for my city.",
+        "question":"What should it say?",
+        "bottom_left":"LEAST likely to get visitors",
+        "bottom_right":"MOST likely to get visitors"
+    },
+    {
+        "id":62,
+        "category":"Series 1",
+        "statement":"It's my first year giving out Halloween candy.",
+        "question":"What should I give?",
+        "bottom_left":"LEAST likely to get my house egged",
+        "bottom_right":"MOST likely to get my house egged"
+    },
+    {
+        "id":63,
+        "category":"Series 1",
+        "statement":"I'm valedictorian at my high school graduation.",
+        "question":"What's the closing line of my speech?",
+        "bottom_left":"LEAST likely I'll be remembered",
+        "bottom_right":"MOST likely I'll be remembered"
+    },
+    {
+        "id":64,
+        "category":"Series 1",
+        "statement":"I'm a pole vaulter, and I'm mid-jump when I notice my landing mat has been replaced with something else.",
+        "question":"What is it?",
+        "bottom_left":"LEAST likely I'll regret the jump",
+        "bottom_right":"MOST likely I'll regret the jump"
+    },
+    {
+        "id":65,
+        "category":"Series 1",
+        "statement":"Something is living under my bed.",
+        "question":"What is it?",
+        "bottom_left":"LEAST likely to keep me awake forever",
+        "bottom_right":"MOST likely to keep me awake forever"
+    },
+    {
+        "id":66,
+        "category":"Series 1",
+        "statement":"My dog just released a genie and gets one wish as a reward.",
+        "question":"What do they wish for?",
+        "bottom_left":"LEAST likely to annoy me",
+        "bottom_right":"MOST likely to annoy me"
+    },
+    {
+        "id":67,
+        "category":"Series 1",
+        "statement":"I called my grandma for relationship advice.",
+        "question":"What does she say?",
+        "bottom_left":"LEAST helpful",
+        "bottom_right":"MOST helpful"
+    },
+    {
+        "id":68,
+        "category":"Series 1",
+        "statement":"A new theme park opened up in my town.",
+        "question":"What's the theme?",
+        "bottom_left":"LEAST problematic",
+        "bottom_right":"MOST problematic"
+    },
+    {
+        "id":69,
+        "category":"Series 1",
+        "statement":"I need to demolish a building.",
+        "question":"How should I do it?",
+        "bottom_left":"LEAST likely to get the job done",
+        "bottom_right":"MOST likely to get the job done"
+    },
+    {
+        "id":70,
+        "category":"Series 1",
+        "statement":"I found something forgotten in the back of my fridge and ate it for lunch.",
+        "question":"What was it?",
+        "bottom_left":"LEAST likely I'll need a doctor",
+        "bottom_right":"MOST likely I'll need a doctor"
+    },
+    {
+        "id":71,
+        "category":"Series 1",
+        "statement":"I found a strange seed and planted it in my garden.",
+        "question":"What grows?",
+        "bottom_left":"LEAST magical",
+        "bottom_right":"MOST magical"
+    },
+    {
+        "id":72,
+        "category":"Series 1",
+        "statement":"I'm at a speed dating event and really want a second date with someone.",
+        "question":"How should I say goodbye to them?",
+        "bottom_left":"LEAST likely to be rejected",
+        "bottom_right":"MOST likely to be rejected"
+    },
+    {
+        "id":73,
+        "category":"Series 1",
+        "statement":"I really need some new clothes.",
+        "question":"What should I buy?",
+        "bottom_left":"LEAST cozy",
+        "bottom_right":"MOST cozy"
+    },
+    {
+        "id":74,
+        "category":"Series 1",
+        "statement":"My roommate just ran into my room.",
+        "question":"What are they doing?",
+        "bottom_left":"LEAST likely I'll join in",
+        "bottom_right":"MOST likely I'll join in"
+    },
+    {
+        "id":75,
+        "category":"Series 1",
+        "statement":"We're playing \"Truth Or Dare\", and I pick \"Dare\".",
+        "question":"What do you dare me to do?",
+        "bottom_left":"LEAST daring",
+        "bottom_right":"MOST daring"
+    },
+    {
+        "id":76,
+        "category":"Series 1",
+        "statement":"I made up a rumor about myself and it's quickly spreading throughout the neighborhood.",
+        "question":"What's the rumor?",
+        "bottom_left":"LEAST likely people will avoid me",
+        "bottom_right":"MOST likely people will avoid me"
+    },
+    {
+        "id":77,
+        "category":"Series 1",
+        "statement":"I found a toy on the side of the road.",
+        "question":"What is it?",
+        "bottom_left":"LEAST haunted",
+        "bottom_right":"MOST haunted"
+    },
+    {
+        "id":78,
+        "category":"Series 1",
+        "statement":"It's my first day on the job as a vengeful god.",
+        "question":"What plague do I send to Earth?",
+        "bottom_left":"LEAST likely to be noticed",
+        "bottom_right":"MOST likely to be noticed"
+    },
+    {
+        "id":79,
+        "category":"Series 1",
+        "statement":"I enter a dark room and something jumps out at me.",
+        "question":"What is it?",
+        "bottom_left":"LEAST scary",
+        "bottom_right":"MOST scary"
+    },
+    {
+        "id":80,
+        "category":"Series 1",
+        "statement":"I'm trying to earn a new merit badge at summer camp.",
+        "question":"What badge is it?",
+        "bottom_left":"LEAST useful life skill",
+        "bottom_right":"MOST useful life skill"
+    },
+    {
+        "id":81,
+        "category":"Series 1",
+        "statement":"I discovered something hidden in my grandparents' attic.",
+        "question":"What is it?",
+        "bottom_left":"LEAST upsetting",
+        "bottom_right":"MOST upsetting"
+    },
+    {
+        "id":82,
+        "category":"Series 1",
+        "statement":"I accidentally shared my screen, and my work chat is open.",
+        "question":"What was I talking about?",
+        "bottom_left":"LEAST likely I'll get fired",
+        "bottom_right":"MOST likely I'll get fired"
+    },
+    {
+        "id":83,
+        "category":"Series 1",
+        "statement":"I didn't finish my homework.",
+        "question":"What excuse should I give my teacher?",
+        "bottom_left":"LEAST likely I'll get in trouble",
+        "bottom_right":"MOST likely I'll get in trouble"
+    },
+    {
+        "id":84,
+        "category":"Series 1",
+        "statement":"I accidentally clogged my friend's toilet.",
+        "question":"How should I unclog it?",
+        "bottom_left":"LEAST likely they'll notice",
+        "bottom_right":"MOST likely they'll notice"
+    },
+    {
+        "id":85,
+        "category":"Series 1",
+        "statement":"My artwork is being featured in a local gallery.",
+        "question":"What material is my art made of?",
+        "bottom_left":"LEAST surprising",
+        "bottom_right":"MOST surprising"
+    },
+    {
+        "id":86,
+        "category":"Series 1",
+        "statement":"I just moved to a new town and discovered they have a very strange law.",
+        "question":"What is it?",
+        "bottom_left":"LEAST likely I'll obey it",
+        "bottom_right":"MOST likely I'll obey it"
+    },
+    {
+        "id":87,
+        "category":"Series 1",
+        "statement":"I'm standing in line for a new ride at the amusement park.",
+        "question":"What's it called?",
+        "bottom_left":"LEAST nauseating",
+        "bottom_right":"MOST nauseating"
+    },
+    {
+        "id":88,
+        "category":"Series 1",
+        "statement":"I developed a car engine to run on something edible.",
+        "question":"What's the new fuel?",
+        "bottom_left":"LEAST delicious",
+        "bottom_right":"MOST delicious"
+    },
+    {
+        "id":89,
+        "category":"Series 1",
+        "statement":"I'm running away from something in a nightmare.",
+        "question":"What is it?",
+        "bottom_left":"LEAST terrifying",
+        "bottom_right":"MOST terrifying"
+    },
+    {
+        "id":90,
+        "category":"Series 1",
+        "statement":"I'm a spy, and I need to have a secret meeting.",
+        "question":"Where should I go?",
+        "bottom_left":"LEAST likely I'll get caught",
+        "bottom_right":"MOST likely I'll get caught"
+    },
+    {
+        "id":91,
+        "category":"Series 1",
+        "statement":"I've been wanting to redecorate, and my partner is going on a business trip.",
+        "question":"What should I do while they're gone?",
+        "bottom_left":"LEAST obvious change",
+        "bottom_right":"MOST obvious change"
+    },
+    {
+        "id":92,
+        "category":"Series 1",
+        "statement":"I'm on a deep sea fishing trip.",
+        "question":"What did I catch?",
+        "bottom_left":"LEAST deadly",
+        "bottom_right":"MOST deadly"
+    },
+    {
+        "id":93,
+        "category":"Series 1",
+        "statement":"I'm going on a trip.",
+        "question":"Where am I going?",
+        "bottom_left":"LEAST relaxing",
+        "bottom_right":"MOST relaxing"
+    },
+    {
+        "id":94,
+        "category":"Series 1",
+        "statement":"My pet wandered into the woods and brought something back.",
+        "question":"What did they bring me?",
+        "bottom_left":"LEAST likely I'll burn it with fire",
+        "bottom_right":"MOST likely I'll burn it with fire"
+    },
+    {
+        "id":95,
+        "category":"Series 1",
+        "statement":"I'm starting a new career as a professional wrestler.",
+        "question":"What should my name be?",
+        "bottom_left":"LEAST intimidating",
+        "bottom_right":"MOST intimidating"
+    },
+    {
+        "id":96,
+        "category":"Series 1",
+        "statement":"My secret admirer sent me a gift.",
+        "question":"What did they get me?",
+        "bottom_left":"LEAST likely I'll show my friends",
+        "bottom_right":"MOST likely I'll show my friends"
+    },
+    {
+        "id":97,
+        "category":"Series 1",
+        "statement":"I just saw a new soft drink at the store.",
+        "question":"What's it called?",
+        "bottom_left":"LEAST likely I'll try it",
+        "bottom_right":"MOST likely I'll try it"
+    },
+    {
+        "id":98,
+        "category":"Series 1",
+        "statement":"I accidentally summoned a demon, and it's demanding a sacrifice.",
+        "question":"What should I give it?",
+        "bottom_left":"LEAST likely to satisfy the demon",
+        "bottom_right":"MOST likely to satisfy the demon"
+    },
+    {
+        "id":99,
+        "category":"Series 1",
+        "statement":"I'm starting a new workout class at my local gym.",
+        "question":"What is it?",
+        "bottom_left":"LEAST sweaty",
+        "bottom_right":"MOST sweaty"
+    },
+    {
+        "id":100,
+        "category":"Series 1",
+        "statement":"I'm going to a 3-year-old's birthday party.",
+        "question":"What should I bring as a gift?",
+        "bottom_left":"LEAST likely to annoy everyone",
+        "bottom_right":"MOST likely to annoy everyone"
+    },
+    {
+        "id":101,
+        "category":"Series 1",
+        "statement":"I want to get a pet to help protect my family.",
+        "question":"What should I get?",
+        "bottom_left":"LEAST intimidating",
+        "bottom_right":"MOST intimidating"
+    },
+    {
+        "id":102,
+        "category":"Series 1",
+        "statement":"I'm planning a self-care day.",
+        "question":"What should I do?",
+        "bottom_left":"LEAST soothing",
+        "bottom_right":"MOST soothing"
+    },
+    {
+        "id":103,
+        "category":"Series 1",
+        "statement":"I'm trying out a beauty trick that I just discovered.",
+        "question":"Where did I find out about it?",
+        "bottom_left":"LEAST sketchy",
+        "bottom_right":"MOST sketchy"
+    },
+    {
+        "id":104,
+        "category":"Series 1",
+        "statement":"I'm the most renowned assassin in the criminal underworld.",
+        "question":"What's my signature move?",
+        "bottom_left":"LEAST complicated",
+        "bottom_right":"MOST complicated"
+    },
+    {
+        "id":105,
+        "category":"Series 1",
+        "statement":"I'm updating my social media profile.",
+        "question":"What do I enter as my relationship status?",
+        "bottom_left":"LEAST confusing",
+        "bottom_right":"MOST confusing"
+    },
+    {
+        "id":106,
+        "category":"Series 1",
+        "statement":"I've just been crowned ruler of my country.",
+        "question":"What's my crown made of?",
+        "bottom_left":"LEAST intimidating",
+        "bottom_right":"MOST intimidating"
+    },
+    {
+        "id":107,
+        "category":"Series 1",
+        "statement":"My social media account has been hacked.",
+        "question":"What did the hacker post?",
+        "bottom_left":"LEAST likely to get me banned",
+        "bottom_right":"MOST likely to get me banned"
+    },
+    {
+        "id":108,
+        "category":"Series 1",
+        "statement":"I'm catering an event for The Royal Family.",
+        "question":"What food should I serve?",
+        "bottom_left":"LEAST fancy",
+        "bottom_right":"MOST fancy"
+    },
+    {
+        "id":109,
+        "category":"Series 1",
+        "statement":"I want to play \"Hide-and-Seek\" in this room.",
+        "question":"How should I hide?",
+        "bottom_left":"LEAST likely I'll be found",
+        "bottom_right":"MOST likely I'll be found"
+    },
+    {
+        "id":110,
+        "category":"Series 1",
+        "statement":"I'm stuck living the same day over and over.",
+        "question":"How do I convince you that this is happening?",
+        "bottom_left":"LEAST convincing",
+        "bottom_right":"MOST convincing"
+    },
+    {
+        "id":111,
+        "category":"Series 1",
+        "statement":"I drank a magic potion and turned into an animal from the waist down.",
+        "question":"What kind of animal is it?",
+        "bottom_left":"LEAST annoying",
+        "bottom_right":"MOST annoying"
+    },
+    {
+        "id":112,
+        "category":"Series 1",
+        "statement":"A wizard has promised to change me into an animal.",
+        "question":"What should I become?",
+        "bottom_left":"LEAST majestic",
+        "bottom_right":"MOST majestic"
+    },
+    {
+        "id":113,
+        "category":"Series 1",
+        "statement":"I'm on a plane, and the passenger next to me is behaving strangely.",
+        "question":"What are they doing?",
+        "bottom_left":"LEAST annoying",
+        "bottom_right":"MOST annoying"
+    },
+    {
+        "id":114,
+        "category":"Series 1",
+        "statement":"My friend dared me to do something while blindfolded.",
+        "question":"What should I do?",
+        "bottom_left":"LEAST dangerous",
+        "bottom_right":"MOST dangerous"
+    },
+    {
+        "id":115,
+        "category":"Series 1",
+        "statement":"I'm at the beach when I notice a bottle in the sand. There's a message inside!",
+        "question":"What does it say?",
+        "bottom_left":"LEAST interesting",
+        "bottom_right":"MOST interesting"
+    },
+    {
+        "id":116,
+        "category":"Series 1",
+        "statement":"My doorbell camera recorded something unusual last night.",
+        "question":"What did it see?",
+        "bottom_left":"LEAST likely I'll sell my house",
+        "bottom_right":"MOST likely I'll sell my house"
+    },
+    {
+        "id":117,
+        "category":"Series 1",
+        "statement":"My stomach hurts.",
+        "question":"What does the internet say is wrong?",
+        "bottom_left":"LEAST serious",
+        "bottom_right":"MOST serious"
+    },
+    {
+        "id":118,
+        "category":"Series 1",
+        "statement":"I'm on a solo camping trip, and I woke up to see something outside of my tent.",
+        "question":"What is it?",
+        "bottom_left":"LEAST likely I'll stay another night",
+        "bottom_right":"MOST likely I'll stay another night"
+    },
+    {
+        "id":119,
+        "category":"Series 1",
+        "statement":"I've made first contact with extraterrestrials.",
+        "question":"What do I say to them as they exit their UFO?",
+        "bottom_left":"LEAST likely to start an intergalactic war",
+        "bottom_right":"MOST likely to start an intergalactic war"
+    },
+    {
+        "id":120,
+        "category":"Series 1",
+        "statement":"I'm a zombie looking for brainy people for my next meal.",
+        "question":"Where should I go?",
+        "bottom_left":"LEAST likely to find braaaaaains",
+        "bottom_right":"MOST likely to find braaaaaains"
+    },
+    {
+        "id":121,
+        "category":"Series 1",
+        "statement":"I've been thrown overboard during a storm.",
+        "question":"What do I grab hold of?",
+        "bottom_left":"LEAST likely to sink",
+        "bottom_right":"MOST likely to sink"
+    },
+    {
+        "id":122,
+        "category":"Series 1",
+        "statement":"I discovered a cure for a medical condition.",
+        "question":"What did I cure?",
+        "bottom_left":"LEAST likely people will care",
+        "bottom_right":"MOST likely people will care"
+    },
+    {
+        "id":123,
+        "category":"Series 1",
+        "statement":"A cargo ship sank, and all of its contents washed up on shore.",
+        "question":"What's all over the beach?",
+        "bottom_left":"LEAST likely to make the local news",
+        "bottom_right":"MOST likely to make the local news"
+    },
+    {
+        "id":124,
+        "category":"Series 1",
+        "statement":"I'm at a random booth at a job fair.",
+        "question":"What kind of job is it?",
+        "bottom_left":"LEAST likely I'll switch careers",
+        "bottom_right":"MOST likely I'll switch careers"
+    },
+    {
+        "id":125,
+        "category":"Series 1",
+        "statement":"I drank a magic potion without reading the label.",
+        "question":"What happened to me?",
+        "bottom_left":"LEAST noticeable",
+        "bottom_right":"MOST noticeable"
+    },
+    {
+        "id":126,
+        "category":"Series 1",
+        "statement":"I've been asked to give a toast at the wedding of someone I barely know.",
+        "question":"What should I say?",
+        "bottom_left":"LEAST upsetting",
+        "bottom_right":"MOST upsetting"
+    },
+    {
+        "id":127,
+        "category":"Series 1",
+        "statement":"I'm a superhero, but I need to hide my identity to protect my family.",
+        "question":"How do I keep it secret?",
+        "bottom_left":"LEAST effective",
+        "bottom_right":"MOST effective"
+    },
+    {
+        "id":128,
+        "category":"Series 1",
+        "statement":"I'm competing in the school talent show.",
+        "question":"What's my act?",
+        "bottom_left":"LEAST likely I'll get expelled",
+        "bottom_right":"MOST likely I'll get expelled"
+    },
+    {
+        "id":129,
+        "category":"Series 1",
+        "statement":"I'm meeting my partner's parents for the first time.",
+        "question":"How do I introduce myself?",
+        "bottom_left":"LEAST likely to cause a breakup",
+        "bottom_right":"MOST likely to cause a breakup"
+    },
+    {
+        "id":130,
+        "category":"Series 1",
+        "statement":"I found an old photo album at a garage sale.",
+        "question":"What are the people in the first photo doing?",
+        "bottom_left":"LEAST likely they were having a good time",
+        "bottom_right":"MOST likely they were having a good time"
+    },
+    {
+        "id":131,
+        "category":"Series 1",
+        "statement":"I can't find my toothbrush, and I'm running late.",
+        "question":"What do I use instead?",
+        "bottom_left":"LEAST likely to upset my dentist",
+        "bottom_right":"MOST likely to upset my dentist"
+    },
+    {
+        "id":132,
+        "category":"Series 1",
+        "statement":"I woke up with a new tattoo.",
+        "question":"What is it?",
+        "bottom_left":"LEAST likely I'll get it removed",
+        "bottom_right":"MOST likely I'll get it removed"
+    },
+    {
+        "id":133,
+        "category":"Series 1",
+        "statement":"I desperately need to use the bathroom, but there's a line.",
+        "question":"What should I do to get to the front?",
+        "bottom_left":"LEAST effective",
+        "bottom_right":"MOST effective"
+    },
+    {
+        "id":134,
+        "category":"Series 1",
+        "statement":"I'm a party clown looking to add something to my act.",
+        "question":"What should it be?",
+        "bottom_left":"LEAST likely I'll get re-hired",
+        "bottom_right":"MOST likely I'll get re-hired"
+    },
+    {
+        "id":135,
+        "category":"Series 1",
+        "statement":"I'm helping a friend move into a 6th floor apartment.",
+        "question":"What did I have to carry up the stairs?",
+        "bottom_left":"LEAST likely I'll feel it tomorrow",
+        "bottom_right":"MOST likely I'll feel it tomorrow"
+    },
+    {
+        "id":136,
+        "category":"Series 1",
+        "statement":"I am a professional juggler.",
+        "question":"What do I juggle?",
+        "bottom_left":"LEAST likely I'll lose a hand",
+        "bottom_right":"MOST likely I'll lose a hand"
+    },
+    {
+        "id":137,
+        "category":"Series 1",
+        "statement":"I'm suddenly allergic to something.",
+        "question":"What is it?",
+        "bottom_left":"LEAST annoying",
+        "bottom_right":"MOST annoying"
+    },
+    {
+        "id":138,
+        "category":"Series 1",
+        "statement":"I'm about to fail my science class, but the teacher said I can do an extra credit assignment to pass.",
+        "question":"What is it?",
+        "bottom_left":"LEAST amount of work",
+        "bottom_right":"MOST amount of work"
+    },
+    {
+        "id":139,
+        "category":"Series 1",
+        "statement":"I got an unexpected package delivered from a distant cousin.",
+        "question":"What is it?",
+        "bottom_left":"LEAST disappointing",
+        "bottom_right":"MOST disappointing"
+    },
+    {
+        "id":140,
+        "category":"Series 1",
+        "statement":"I bought a new painting.",
+        "question":"How should I put it on the wall?",
+        "bottom_left":"LEAST likely to stay on the wall",
+        "bottom_right":"MOST likely to stay on the wall"
+    },
+    {
+        "id":141,
+        "category":"Series 1",
+        "statement":"I'm on the phone with my partner when the line goes dead.",
+        "question":"What's the last thing they heard?",
+        "bottom_left":"LEAST alarming",
+        "bottom_right":"MOST alarming"
+    },
+    {
+        "id":142,
+        "category":"Series 1",
+        "statement":"I just noticed two parents fighting at their kids' baseball tournament.",
+        "question":"Why are they fighting?",
+        "bottom_left":"LEAST embarrassing for their kids",
+        "bottom_right":"MOST embarrassing for their kids"
+    },
+    {
+        "id":143,
+        "category":"Series 1",
+        "statement":"My food truck was shut down by the health inspector.",
+        "question":"Why?",
+        "bottom_left":"LEAST justified",
+        "bottom_right":"MOST justified"
+    },
+    {
+        "id":144,
+        "category":"Series 1",
+        "statement":"I'm babysitting my neighbor's kid, and they refuse to eat their vegetables.",
+        "question":"What do I tell them?",
+        "bottom_left":"LEAST likely they'll eat them",
+        "bottom_right":"MOST likely they'll eat them"
+    },
+    {
+        "id":145,
+        "category":"Series 1",
+        "statement":"I have a favorite pizza topping combo.",
+        "question":"What is it?",
+        "bottom_left":"LEAST unique",
+        "bottom_right":"MOST unique"
+    },
+    {
+        "id":146,
+        "category":"Series 1",
+        "statement":"I found something in between my sofa cushions!",
+        "question":"What is it?",
+        "bottom_left":"LEAST likely I'll keep it",
+        "bottom_right":"MOST likely I'll keep it"
+    },
+    {
+        "id":147,
+        "category":"Series 1",
+        "statement":"I left my pet at home alone while I'm on a date.",
+        "question":"What do I see when I check the pet cam?",
+        "bottom_left":"LEAST likely I'll rush home",
+        "bottom_right":"MOST likely I'll rush home"
+    },
+    {
+        "id":148,
+        "category":"Series 1",
+        "statement":"My classmates and I got caught playing a prank on our substitute teacher.",
+        "question":"What did we do?",
+        "bottom_left":"LEAST likely we'll all be expelled",
+        "bottom_right":"MOST likely we'll all be expelled"
+    },
+    {
+        "id":149,
+        "category":"Series 1",
+        "statement":"My new neighbors brought me a housewarming gift.",
+        "question":"What did they give me?",
+        "bottom_left":"LEAST welcoming",
+        "bottom_right":"MOST welcoming"
+    },
+    {
+        "id":150,
+        "category":"Series 1",
+        "statement":"I found a mystical board that lets me speak to the dead.",
+        "question":"What do the spirits say?",
+        "bottom_left":"LEAST upsetting",
+        "bottom_right":"MOST upsetting"
+    },
+    {
+        "id":151,
+        "category":"Series 1",
+        "statement":"I can only say one phrase for the rest of the day.",
+        "question":"What is it?",
+        "bottom_left":"LEAST likely to ruin my day",
+        "bottom_right":"MOST likely to ruin my day"
+    },
+    {
+        "id":152,
+        "category":"Series 1",
+        "statement":"I'm worried about aliens probing my mind, so I always wear a hat.",
+        "question":"What's it made of?",
+        "bottom_left":"LEAST likely people will avoid me",
+        "bottom_right":"MOST likely people will avoid me"
+    },
+    {
+        "id":153,
+        "category":"Series 1",
+        "statement":"I'm an astronaut, and I just accidentally spilled something in my space station.",
+        "question":"What did I spill?",
+        "bottom_left":"LEAST distressing",
+        "bottom_right":"MOST distressing"
+    },
+    {
+        "id":154,
+        "category":"Series 1",
+        "statement":"I'm an astronaut, and I just heard something knock on the door from outside the space station.",
+        "question":"What is it?",
+        "bottom_left":"LEAST surprising",
+        "bottom_right":"MOST surprising"
+    },
+    {
+        "id":155,
+        "category":"Series 1",
+        "statement":"I have a new neighbor who constantly talks to me about their job.",
+        "question":"What do they do?",
+        "bottom_left":"LEAST interesting",
+        "bottom_right":"MOST interesting"
+    },
+    {
+        "id":156,
+        "category":"Series 1",
+        "statement":"I'm giving a career presentation at the community college.",
+        "question":"What's my job?",
+        "bottom_left":"LEAST interesting",
+        "bottom_right":"MOST interesting"
+    },
+    {
+        "id":157,
+        "category":"Series 1",
+        "statement":"I created an interesting new perfume scent.",
+        "question":"What is it?",
+        "bottom_left":"LEAST pleasant",
+        "bottom_right":"MOST pleasant"
+    },
+    {
+        "id":158,
+        "category":"Series 1",
+        "statement":"My farts suddenly smell different.",
+        "question":"What do they smell like?",
+        "bottom_left":"LEAST offensive",
+        "bottom_right":"MOST offensive"
+    },
+    {
+        "id":159,
+        "category":"Series 1",
+        "statement":"I just finished writing my autobiography.",
+        "question":"What's it called?",
+        "bottom_left":"LEAST embarrassing if my parents read it",
+        "bottom_right":"MOST embarrassing if my parents read it"
+    },
+    {
+        "id":160,
+        "category":"Series 1",
+        "statement":"I just published a book, but the local school board is threatening to ban it.",
+        "question":"What's it called?",
+        "bottom_left":"LEAST justified ban",
+        "bottom_right":"MOST justified ban"
+    },
+    {
+        "id":161,
+        "category":"Series 1",
+        "statement":"My friend gave me an unusual blanket for my birthday.",
+        "question":"What's it made of?",
+        "bottom_left":"LEAST comfortable",
+        "bottom_right":"MOST comfortable"
+    },
+    {
+        "id":162,
+        "category":"Series 1",
+        "statement":"I'm a rising star in the fashion industry.",
+        "question":"What materials do I use for the clothes I design?",
+        "bottom_left":"LEAST comfortable",
+        "bottom_right":"MOST comfortable"
+    },
+    {
+        "id":163,
+        "category":"Series 1",
+        "statement":"I'm working at a cash register when an obnoxious customer complains about something.",
+        "question":"What is it?",
+        "bottom_left":"LEAST likely they'll cause a scene",
+        "bottom_right":"MOST likely they'll cause a scene"
+    },
+    {
+        "id":164,
+        "category":"Series 1",
+        "statement":"A coworker stole my sandwich.",
+        "question":"How do I get my revenge?",
+        "bottom_left":"LEAST elaborate",
+        "bottom_right":"MOST elaborate"
+    },
+    {
+        "id":165,
+        "category":"Series 1",
+        "statement":"I'm a lawyer defending an innocent person on trial for a horrible crime.",
+        "question":"What's the last line of my closing argument?",
+        "bottom_left":"LEAST likely I'll win the case",
+        "bottom_right":"MOST likely I'll win the case"
+    },
+    {
+        "id":166,
+        "category":"Series 1",
+        "statement":"I found the end of the rainbow!",
+        "question":"What's there?",
+        "bottom_left":"LEAST satisfying",
+        "bottom_right":"MOST satisfying"
+    },
+    {
+        "id":167,
+        "category":"Series 1",
+        "statement":"I'm having a bad day and need some encouragement.",
+        "question":"What do you say to me?",
+        "bottom_left":"LEAST likely to make me feel better",
+        "bottom_right":"MOST likely to make me feel better"
+    },
+    {
+        "id":168,
+        "category":"Series 1",
+        "statement":"I'm trying to row my boat away from a waterfall, but I don't have any paddles!",
+        "question":"What should I use instead?",
+        "bottom_left":"LEAST effective",
+        "bottom_right":"MOST effective"
+    },
+    {
+        "id":169,
+        "category":"Series 1",
+        "statement":"I'm about to order a birthday cake for my boss.",
+        "question":"What should I have written on it?",
+        "bottom_left":"LEAST likely I'll get fired",
+        "bottom_right":"MOST likely I'll get fired"
+    },
+    {
+        "id":170,
+        "category":"Series 1",
+        "statement":"I ran out of toilet paper.",
+        "question":"What should I use instead?",
+        "bottom_left":"LEAST comfortable",
+        "bottom_right":"MOST comfortable"
+    },
+    {
+        "id":171,
+        "category":"Series 1",
+        "statement":"I'm a doctor, and I made a mistake during a surgery.",
+        "question":"What happened?",
+        "bottom_left":"LEAST likely I'll get sued",
+        "bottom_right":"MOST likely I'll get sued"
+    },
+    {
+        "id":172,
+        "category":"Series 1",
+        "statement":"My parents called me asking for computer help.",
+        "question":"What's the issue?",
+        "bottom_left":"LEAST ridiculous",
+        "bottom_right":"MOST ridiculous"
+    },
+    {
+        "id":173,
+        "category":"Series 1",
+        "statement":"I'm at the airport, and security opens my bag to look at something inside.",
+        "question":"What is it?",
+        "bottom_left":"LEAST likely I'll miss my flight",
+        "bottom_right":"MOST likely I'll miss my flight"
+    },
+    {
+        "id":174,
+        "category":"Series 1",
+        "statement":"I'm exhausted after a long day.",
+        "question":"What should I make for dinner?",
+        "bottom_left":"LEAST effort",
+        "bottom_right":"MOST effort"
+    },
+    {
+        "id":175,
+        "category":"Series 1",
+        "statement":"My parents caught me sneaking in after curfew.",
+        "question":"What's my excuse for being late?",
+        "bottom_left":"LEAST likely to get me grounded",
+        "bottom_right":"MOST likely to get me grounded"
+    },
+    {
+        "id":176,
+        "category":"Series 1",
+        "statement":"I'm a stunt person.",
+        "question":"What should I jump over with my motorcycle?",
+        "bottom_left":"LEAST impressive",
+        "bottom_right":"MOST impressive"
+    },
+    {
+        "id":177,
+        "category":"Series 1",
+        "statement":"I just met a vampire!",
+        "question":"How should I convince them to turn me into a vampire?",
+        "bottom_left":"LEAST likely to work",
+        "bottom_right":"MOST likely to work"
+    },
+    {
+        "id":178,
+        "category":"Series 1",
+        "statement":"The local science museum has a new scratch-and-sniff exhibit.",
+        "question":"What is it?",
+        "bottom_left":"LEAST repulsive",
+        "bottom_right":"MOST repulsive"
+    },
+    {
+        "id":179,
+        "category":"Series 1",
+        "statement":"I can save the world from certain destruction, but something on the planet must disappear forever.",
+        "question":"What is it?",
+        "bottom_left":"LEAST devastating",
+        "bottom_right":"MOST devastating"
+    },
+    {
+        "id":180,
+        "category":"Series 1",
+        "statement":"I'm almost done repainting my house, but my last can of paint just ran out!",
+        "question":"What should I use to finish the job?",
+        "bottom_left":"LEAST noticeable",
+        "bottom_right":"MOST noticeable"
+    },
+    {
+        "id":181,
+        "category":"Series 1",
+        "statement":"I have two tickets for a dream vacation, and my friend really wants to go.",
+        "question":"How are they trying to convince me?",
+        "bottom_left":"LEAST likely I'll bring them",
+        "bottom_right":"MOST likely I'll bring them"
+    },
+    {
+        "id":182,
+        "category":"Series 1",
+        "statement":"I'm very excited about an idea for a new TV show.",
+        "question":"What is it?",
+        "bottom_left":"LEAST likely to get taken off the air",
+        "bottom_right":"MOST likely to get taken off the air"
+    },
+    {
+        "id":183,
+        "category":"Series 1",
+        "statement":"A little kid just shouted something mean to me.",
+        "question":"What did they say?",
+        "bottom_left":"LEAST likely to still bother me tomorrow",
+        "bottom_right":"MOST likely to still bother me tomorrow"
+    },
+    {
+        "id":184,
+        "category":"Series 1",
+        "statement":"I found a USB drive, and I'm curious to discover what's on it.",
+        "question":"Where did I find it?",
+        "bottom_left":"LEAST likely it has a virus",
+        "bottom_right":"MOST likely it has a virus"
+    },
+    {
+        "id":185,
+        "category":"Series 1",
+        "statement":"I've been arrested, but I get one phone call.",
+        "question":"Who should I call to bail me out?",
+        "bottom_left":"LEAST likely I'll spend the night in jail",
+        "bottom_right":"MOST likely I'll spend the night in jail"
+    },
+    {
+        "id":186,
+        "category":"Series 1",
+        "statement":"I just bought something at an estate sale, and they told me it was historic.",
+        "question":"What did I get?",
+        "bottom_left":"LEAST likely I was scammed",
+        "bottom_right":"MOST likely I was scammed"
+    },
+    {
+        "id":187,
+        "category":"Series 1",
+        "statement":"I'm stuck waiting in line at the post office.",
+        "question":"How should I pass the time?",
+        "bottom_left":"LEAST annoying to everyone else",
+        "bottom_right":"MOST annoying to everyone else"
+    },
+    {
+        "id":188,
+        "category":"Series 1",
+        "statement":"I'm the newly-elected ruler of Earth, and I'm about to sign my first executive order.",
+        "question":"What is it?",
+        "bottom_left":"LEAST impactful",
+        "bottom_right":"MOST impactful"
+    },
+    {
+        "id":189,
+        "category":"Series 1",
+        "statement":"I just failed my driving test.",
+        "question":"What did I do wrong?",
+        "bottom_left":"LEAST embarrassing",
+        "bottom_right":"MOST embarrassing"
+    },
+    {
+        "id":190,
+        "category":"Series 1",
+        "statement":"I'm a scientist and have successfully combined two creatures to make a new species.",
+        "question":"What is it?",
+        "bottom_left":"LEAST nightmarish",
+        "bottom_right":"MOST nightmarish"
+    },
+    {
+        "id":191,
+        "category":"Series 1",
+        "statement":"My friend wants to borrow my laptop and needs the password.",
+        "question":"What is it?",
+        "bottom_left":"LEAST secure password",
+        "bottom_right":"MOST secure password"
+    },
+    {
+        "id":192,
+        "category":"Series 1",
+        "statement":"I play in a famous rock 'n' roll band.",
+        "question":"What's unique about my instrument?",
+        "bottom_left":"LEAST cool story",
+        "bottom_right":"MOST cool"
+    },
+    {
+        "id":193,
+        "category":"Series 1",
+        "statement":"With a snap of my fingers, I can make something fall from the sky.",
+        "question":"What is it?",
+        "bottom_left":"LEAST likely I'll snap my fingers",
+        "bottom_right":"MOST likely I'll snap my fingers"
+    },
+    {
+        "id":194,
+        "category":"Series 1",
+        "statement":"I picked something up for my partner on my way home.",
+        "question":"What did I get for them?",
+        "bottom_left":"LEAST likely to cause a fight",
+        "bottom_right":"MOST likely to cause a fight"
+    },
+    {
+        "id":195,
+        "category":"Series 1",
+        "statement":"I saw an infomercial late last night for a kitchen appliance.",
+        "question":"What was it?",
+        "bottom_left":"LEAST useful",
+        "bottom_right":"MOST useful"
+    },
+    {
+        "id":196,
+        "category":"Series 1",
+        "statement":"I see a stranger doing something on the street.",
+        "question":"What is it?",
+        "bottom_left":"LEAST likely I'll fall in love with them",
+        "bottom_right":"MOST likely I'll fall in love with them"
+    },
+    {
+        "id":197,
+        "category":"Series 1",
+        "statement":"I have a very intense phobia.",
+        "question":"What am I afraid of?",
+        "bottom_left":"LEAST likely to disrupt my life",
+        "bottom_right":"MOST likely to disrupt my life"
+    },
+    {
+        "id":198,
+        "category":"Series 1",
+        "statement":"I'm walking under a fire escape and feel something wet hit my head.",
+        "question":"What is it?",
+        "bottom_left":"LEAST likely to ruin my day",
+        "bottom_right":"MOST likely to ruin my day"
+    },
+    {
+        "id":199,
+        "category":"Series 1",
+        "statement":"I stole a bunch of money from someone.",
+        "question":"Why?",
+        "bottom_left":"LEAST likely they deserved it",
+        "bottom_right":"MOST likely they deserved it"
+    },
+    {
+        "id":200,
+        "category":"Series 1",
+        "statement":"I'm going back in time to give advice to my childhood self.",
+        "question":"What should I say?",
+        "bottom_left":"LEAST useful advice",
+        "bottom_right":"MOST useful advice"
+    },
+    {
+        "id":201,
+        "category":"Series 1",
+        "statement":"I just preordered the latest smartphone.",
+        "question":"What's the hot new feature?",
+        "bottom_left":"LEAST exciting thing",
+        "bottom_right":"MOST exciting thing"
+    },
+    {
+        "id":202,
+        "category":"Series 1",
+        "statement":"I dropped my ice cream!",
+        "question":"What did I drop it on?",
+        "bottom_left":"LEAST likely it's ruined",
+        "bottom_right":"MOST likely it's ruined"
+    },
+    {
+        "id":203,
+        "category":"Series 1",
+        "statement":"I'm on fire!",
+        "question":"What should I use to put myself out?",
+        "bottom_left":"LEAST effective",
+        "bottom_right":"MOST effective"
+    },
+    {
+        "id":204,
+        "category":"Series 1",
+        "statement":"I just moved into a new house, and I think it might be haunted.",
+        "question":"What did I see?",
+        "bottom_left":"LEAST likely I'm right",
+        "bottom_right":"MOST likely I'm right"
+    },
+    {
+        "id":205,
+        "category":"Series 1",
+        "statement":"I ordered a basic hat online but got the wrong item.",
+        "question":"What did I get instead?",
+        "bottom_left":"LEAST likely I'll return it",
+        "bottom_right":"MOST likely I'll return it"
+    },
+    {
+        "id":206,
+        "category":"Series 1",
+        "statement":"I got superpowers after an unusual creature bit me.",
+        "question":"What bit me?",
+        "bottom_left":"LEAST powerful creature",
+        "bottom_right":"MOST powerful creature"
+    },
+    {
+        "id":207,
+        "category":"Series 1",
+        "statement":"Someone just gave me a thousand dollars in cash.",
+        "question":"Where should I put it?",
+        "bottom_left":"LEAST secure",
+        "bottom_right":"MOST secure"
+    },
+    {
+        "id":208,
+        "category":"Series 1",
+        "statement":"I'm an archaeologist, and I found something strange on my most recent dig.",
+        "question":"What did I find?",
+        "bottom_left":"LEAST likely to prove aliens exist",
+        "bottom_right":"MOST likely to prove aliens exist"
+    },
+    {
+        "id":209,
+        "category":"Series 1",
+        "statement":"I just found out my dog can talk!",
+        "question":"What did it say?",
+        "bottom_left":"LEAST disturbing",
+        "bottom_right":"MOST disturbing"
+    },
+    {
+        "id":210,
+        "category":"Series 1",
+        "statement":"I accidentally left something behind in a taxi cab.",
+        "question":"What was it?",
+        "bottom_left":"LEAST likely I'll chase down the taxi",
+        "bottom_right":"MOST likely I'll chase down the taxi"
+    },
+    {
+        "id":211,
+        "category":"Series 1",
+        "statement":"I'm a food tester.",
+        "question":"What am I testing today?",
+        "bottom_left":"LEAST likely to make me quit my job",
+        "bottom_right":"MOST likely to make me quit my job"
+    },
+    {
+        "id":212,
+        "category":"Series 1",
+        "statement":"I fell asleep on the train!",
+        "question":"Where did I end up?",
+        "bottom_left":"LEAST likely I'll be late for work tomorrow",
+        "bottom_right":"MOST likely I'll be late for work tomorrow"
+    },
+    {
+        "id":213,
+        "category":"Series 1",
+        "statement":"I'm a character in a horror movie.",
+        "question":"Where should I hide from the killer?",
+        "bottom_left":"LEAST likely I'll survive",
+        "bottom_right":"MOST likely I'll survive"
+    },
+    {
+        "id":214,
+        "category":"Series 1",
+        "statement":"I have a hard time saying that I need to use the bathroom.",
+        "question":"What phrase do I use instead?",
+        "bottom_left":"LEAST yucky",
+        "bottom_right":"MOST yucky"
+    },
+    {
+        "id":215,
+        "category":"Series 1",
+        "statement":"I just heard a thump in the trunk of my rental car.",
+        "question":"What's in there?",
+        "bottom_left":"LEAST likely to cause nightmares",
+        "bottom_right":"MOST likely to cause nightmares"
+    },
+    {
+        "id":216,
+        "category":"Series 1",
+        "statement":"My friends are throwing me a birthday party.",
+        "question":"What are we going to do?",
+        "bottom_left":"LEAST exciting",
+        "bottom_right":"MOST exciting"
+    },
+    {
+        "id":217,
+        "category":"Series 1",
+        "statement":"I'm at a wedding, and I object to the marriage.",
+        "question":"What should I say?",
+        "bottom_left":"LEAST likely to stop the wedding",
+        "bottom_right":"MOST likely to stop the wedding"
+    },
+    {
+        "id":218,
+        "category":"Series 1",
+        "statement":"I'm a martial arts expert about to chop something in half with my hand.",
+        "question":"What is it?",
+        "bottom_left":"LEAST impressive",
+        "bottom_right":"MOST impressive"
+    },
+    {
+        "id":219,
+        "category":"Series 1",
+        "statement":"A bird just flew into my open window and is trapped in my house!",
+        "question":"How should I get it out?",
+        "bottom_left":"LEAST destructive",
+        "bottom_right":"MOST destructive"
+    },
+    {
+        "id":220,
+        "category":"Series 1",
+        "statement":"I've locked myself out of my house.",
+        "question":"How do I get back in?",
+        "bottom_left":"LEAST destructive",
+        "bottom_right":"MOST destructive"
+    },
+    {
+        "id":221,
+        "category":"Series 1",
+        "statement":"At my funeral, I don't want my body in a casket.",
+        "question":"How should I be presented?",
+        "bottom_left":"LEAST likely to put the 'fun' in 'funeral'",
+        "bottom_right":"MOST likely to put the 'fun' in 'funeral'"
+    },
+    {
+        "id":222,
+        "category":"Series 1",
+        "statement":"I've decided that when I die, I want to donate my body.",
+        "question":"What should I let people use it for?",
+        "bottom_left":"LEAST useful",
+        "bottom_right":"MOST useful"
+    },
+    {
+        "id":223,
+        "category":"Series 1",
+        "statement":"I just ordered the daily special at a new restaurant.",
+        "question":"What is it?",
+        "bottom_left":"LEAST appetizing",
+        "bottom_right":"MOST appetizing"
+    },
+    {
+        "id":224,
+        "category":"Series 1",
+        "statement":"I'm opening a new animal caf\u00e9.",
+        "question":"What kind of animal lives in my caf\u00e9?",
+        "bottom_left":"LEAST likely to raise my insurance premiums",
+        "bottom_right":"MOST likely to raise my insurance premiums"
+    },
+    {
+        "id":225,
+        "category":"Series 1",
+        "statement":"The love of my life just proposed!",
+        "question":"How did they do it?",
+        "bottom_left":"LEAST likely I'll accept",
+        "bottom_right":"MOST likely I'll accept"
+    },
+    {
+        "id":226,
+        "category":"Series 1",
+        "statement":"I'm babysitting a toddler when I notice they're holding something.",
+        "question":"What is it?",
+        "bottom_left":"LEAST dangerous",
+        "bottom_right":"MOST dangerous"
+    },
+    {
+        "id":227,
+        "category":"Series 1",
+        "statement":"I want to replace a body part with something robotic.",
+        "question":"What should I get?",
+        "bottom_left":"LEAST cool",
+        "bottom_right":"MOST cool"
+    },
+    {
+        "id":228,
+        "category":"Series 1",
+        "statement":"My baby just said their first word!",
+        "question":"What is it?",
+        "bottom_left":"LEAST impressive",
+        "bottom_right":"MOST impressive"
+    },
+    {
+        "id":229,
+        "category":"Series 1",
+        "statement":"It starts pouring, and I forgot my umbrella.",
+        "question":"What should I use to shield myself from the rain?",
+        "bottom_left":"LEAST effective",
+        "bottom_right":"MOST effective"
+    },
+    {
+        "id":230,
+        "category":"Series 1",
+        "statement":"I'm teaching a class at the community college.",
+        "question":"What is it?",
+        "bottom_left":"LEAST useful class",
+        "bottom_right":"MOST useful class"
+    },
+    {
+        "id":231,
+        "category":"Series 1",
+        "statement":"I'm about to pick up my date for the school dance.",
+        "question":"What vehicle do I pull up in?",
+        "bottom_left":"LEAST likely to impress my date",
+        "bottom_right":"MOST likely to impress my date"
+    },
+    {
+        "id":232,
+        "category":"Series 1",
+        "statement":"My friend just put a new bumper sticker on their car.",
+        "question":"What does it say?",
+        "bottom_left":"LEAST likely to inspire road rage",
+        "bottom_right":"MOST likely to inspire road rage"
+    },
+    {
+        "id":233,
+        "category":"Series 1",
+        "statement":"I just found a genie who will grant me one wish.",
+        "question":"What should I wish for?",
+        "bottom_left":"LEAST likely I'll regret my wish",
+        "bottom_right":"MOST likely I'll regret my wish"
+    },
+    {
+        "id":234,
+        "category":"Series 1",
+        "statement":"I'm writing a self-help book on relationships.",
+        "question":"What should the title be?",
+        "bottom_left":"LEAST inspiring",
+        "bottom_right":"MOST inspiring"
+    },
+    {
+        "id":235,
+        "category":"Series 1",
+        "statement":"I just finished medical school.",
+        "question":"What is my speciality?",
+        "bottom_left":"LEAST specific",
+        "bottom_right":"MOST specific"
+    },
+    {
+        "id":236,
+        "category":"Series 1",
+        "statement":"I'm competing in a deep frying competition at a street fair.",
+        "question":"What should I fry?",
+        "bottom_left":"LEAST likely to make the judges sick",
+        "bottom_right":"MOST likely to make the judges sick"
+    },
+    {
+        "id":237,
+        "category":"Series 1",
+        "statement":"My partner told me I make animal noises in my sleep.",
+        "question":"What animal do I sound like?",
+        "bottom_left":"LEAST cute",
+        "bottom_right":"MOST cute"
+    },
+    {
+        "id":238,
+        "category":"Series 1",
+        "statement":"I've been asked to bring a salad to a potluck, but I don't have any vegetables.",
+        "question":"What should I make my salad from instead?",
+        "bottom_left":"LEAST likely to give everyone a tummy ache",
+        "bottom_right":"MOST likely to give everyone a tummy ache"
+    },
+    {
+        "id":239,
+        "category":"Series 1",
+        "statement":"I'm on a first date, and they just pulled something out of their pocket to give me.",
+        "question":"What is it?",
+        "bottom_left":"LEAST likely I'll accept",
+        "bottom_right":"MOST likely I'll accept"
+    },
+    {
+        "id":240,
+        "category":"Series 1",
+        "statement":"I made a New Year's Resolution.",
+        "question":"What is it?",
+        "bottom_left":"LEAST likely I'll fail by January 2nd",
+        "bottom_right":"MOST likely I'll fail by January 2nd"
+    },
+    {
+        "id":241,
+        "category":"Series 1",
+        "statement":"I'm on a video chat with my crush, and my roommate just yelled something in the background.",
+        "question":"What did they yell?",
+        "bottom_left":"LEAST embarrassing",
+        "bottom_right":"MOST embarrassing"
+    },
+    {
+        "id":242,
+        "category":"Series 1",
+        "statement":"I've devoted my entire life to perfecting one unique skill.",
+        "question":"What is it?",
+        "bottom_left":"LEAST likely to people will remember me",
+        "bottom_right":"MOST likely that people will remember me"
+    },
+    {
+        "id":243,
+        "category":"Series 1",
+        "statement":"I'm bored at a family reunion.",
+        "question":"What rumor do I start to keep myself entertained?",
+        "bottom_left":"LEAST likely to cause family drama",
+        "bottom_right":"MOST likely to cause family drama"
+    },
+    {
+        "id":244,
+        "category":"Series 1",
+        "statement":"A demon has challenged me to a fiddle contest.",
+        "question":"What prize will I get if I win?",
+        "bottom_left":"LEAST likely I'll accept the challenge",
+        "bottom_right":"MOST likely I'll accept the challenge"
+    },
+    {
+        "id":245,
+        "category":"Series 1",
+        "statement":"I'm face-to-face with an ancient, forgotten god.",
+        "question":"What are they the god of?",
+        "bottom_left":"LEAST impressive",
+        "bottom_right":"MOST impressive"
+    },
+    {
+        "id":246,
+        "category":"Series 1",
+        "statement":"I'm at work when I get a call from doggy daycare.",
+        "question":"What are they calling about?",
+        "bottom_left":"LEAST likely my dog has been banned",
+        "bottom_right":"MOST likely my dog has been banned"
+    },
+    {
+        "id":247,
+        "category":"Series 1",
+        "statement":"I crash-landed in the Arctic, and I have one particular skill to help me survive until I'm rescued.",
+        "question":"What skill is it?",
+        "bottom_left":"LEAST useful",
+        "bottom_right":"MOST useful"
+    },
+    {
+        "id":248,
+        "category":"Series 1",
+        "statement":"I'm choosing toppings for my ice cream sundae.",
+        "question":"What should I put on it?",
+        "bottom_left":"LEAST likely to give me a tummy ache",
+        "bottom_right":"MOST likely to give me a tummy ache"
+    },
+    {
+        "id":249,
+        "category":"Series 1",
+        "statement":"My phone rings during a work meeting, and everyone sees my background image.",
+        "question":"What is it?",
+        "bottom_left":"LEAST embarrassing",
+        "bottom_right":"MOST embarrassing"
+    },
+    {
+        "id":250,
+        "category":"Series 1",
+        "statement":"I'm a health inspector checking out a new restaurant, and just saw something move out of the corner of my eye.",
+        "question":"What was it?",
+        "bottom_left":"LEAST likely I'll shut down the restaurant",
+        "bottom_right":"MOST likely I'll shut down the restaurant"
+    },
+    {
+        "id":251,
+        "category":"Series 1",
+        "statement":"I need to use a public restroom but it's out of order.",
+        "question":"What's clogging the toilet?",
+        "bottom_left":"LEAST likely I'll run away",
+        "bottom_right":"MOST likely I'll run away"
+    },
+    {
+        "id":252,
+        "category":"Series 1",
+        "statement":"I just got off the phone with my partner.",
+        "question":"What's the last thing I said?",
+        "bottom_left":"LEAST likely to end the relationship",
+        "bottom_right":"MOST likely to end the relationship"
+    },
+    {
+        "id":253,
+        "category":"Series 1",
+        "statement":"I just moved into my apartment, but the landlord has a strange rule that I have to follow.",
+        "question":"What's the rule?",
+        "bottom_left":"LEAST likely I need to find a new apartment",
+        "bottom_right":"MOST likely I need to find a new apartment"
+    },
+    {
+        "id":254,
+        "category":"Series 1",
+        "statement":"I just inherited a family heirloom.",
+        "question":"What is it?",
+        "bottom_left":"LEAST likely I'll sell it immediately",
+        "bottom_right":"MOST likely I'll sell it immediately"
+    },
+    {
+        "id":255,
+        "category":"Series 1",
+        "statement":"I'm not wearing shoes, and I stepped in something wet.",
+        "question":"What did I step in?",
+        "bottom_left":"LEAST disgusting",
+        "bottom_right":"MOST disgusting"
+    },
+    {
+        "id":256,
+        "category":"Series 1",
+        "statement":"My new medication has some unexpected side effects.",
+        "question":"What's happening?",
+        "bottom_left":"LEAST likely to make me stop taking it",
+        "bottom_right":"MOST likely to make me stop taking it"
+    },
+    {
+        "id":257,
+        "category":"Series 1",
+        "statement":"I've gone back in time to change something.",
+        "question":"What did I change?",
+        "bottom_left":"LEAST impactful on the present day",
+        "bottom_right":"MOST impactful on the present day"
+    },
+    {
+        "id":258,
+        "category":"Series 1",
+        "statement":"I'm in for a routine checkup when the doctor suddenly says, \"Uh-oh!\"!",
+        "question":"What's the problem?",
+        "bottom_left":"LEAST likely I'll need a follow-up appointment",
+        "bottom_right":"MOST likely I'll need a follow-up appointment"
+    },
+    {
+        "id":259,
+        "category":"Series 1",
+        "statement":"I see something on the ground while walking down the street.",
+        "question":"What is it?",
+        "bottom_left":"LEAST likely I'll eat it",
+        "bottom_right":"MOST likely I'll eat it"
+    },
+    {
+        "id":260,
+        "category":"Series 1",
+        "statement":"I'm combing the beach with a metal detector.",
+        "question":"What do I find hidden in the sand?",
+        "bottom_left":"LEAST likely to change my life",
+        "bottom_right":"MOST likely to change my life"
+    },
+    {
+        "id":261,
+        "category":"Series 1",
+        "statement":"I am a real estate agent who specializes in selling houses that are haunted.",
+        "question":"What's my sales pitch?",
+        "bottom_left":"LEAST likely I'll make the sale",
+        "bottom_right":"MOST likely I'll make the sale"
+    },
+    {
+        "id":262,
+        "category":"Series 1",
+        "statement":"I'm on a long flight and notice something outside the window.",
+        "question":"What is it?",
+        "bottom_left":"LEAST likely I'll tell a flight attendant",
+        "bottom_right":"MOST likely I'll tell a flight attendant"
+    },
+    {
+        "id":263,
+        "category":"Series 1",
+        "statement":"I wake up and discover I have a superpower.",
+        "question":"What is it?",
+        "bottom_left":"LEAST useful",
+        "bottom_right":"MOST useful"
+    },
+    {
+        "id":264,
+        "category":"Series 1",
+        "statement":"I got on a bus, and the person next to me is trying to give me something.",
+        "question":"What is it?",
+        "bottom_left":"LEAST likely to make me switch seats",
+        "bottom_right":"MOST likely to make me switch seats"
+    },
+    {
+        "id":265,
+        "category":"Series 1",
+        "statement":"I just checked my horoscope.",
+        "question":"What did it say?",
+        "bottom_left":"LEAST likely to ruin my day",
+        "bottom_right":"MOST likely to ruin my day"
+    },
+    {
+        "id":266,
+        "category":"Series 1",
+        "statement":"I'm home alone and hear something in the attic.",
+        "question":"What do I hear?",
+        "bottom_left":"LEAST concerning",
+        "bottom_right":"MOST concerning"
+    },
+    {
+        "id":267,
+        "category":"Series 1",
+        "statement":"I have guests visiting from out of town this weekend.",
+        "question":"What should we do?",
+        "bottom_left":"LEAST likely they'll visit again",
+        "bottom_right":"MOST likely they'll visit again"
+    },
+    {
+        "id":268,
+        "category":"Series 1",
+        "statement":"I'm holding a can of spray paint.",
+        "question":"What should I do with it?",
+        "bottom_left":"LEAST destructive",
+        "bottom_right":"MOST destructive"
+    },
+    {
+        "id":269,
+        "category":"Series 1",
+        "statement":"I'm running a marathon and decide to cheat.",
+        "question":"What should I do to win?",
+        "bottom_left":"LEAST likely I'll win the case",
+        "bottom_right":"MOST likely I'll win the case"
+    },
+    {
+        "id":270,
+        "category":"Series 1",
+        "statement":"I just told a stranger their haircut reminds me of something.",
+        "question":"What does it remind me of?",
+        "bottom_left":"LEAST flattering",
+        "bottom_right":"MOST flattering"
+    },
+    {
+        "id":271,
+        "category":"Series 1",
+        "statement":"I'm at the local coffee shop, and I want to impress the cute barista.",
+        "question":"What should I order?",
+        "bottom_left":"LEAST likely to impress them",
+        "bottom_right":"MOST likely to impress them"
+    },
+    {
+        "id":272,
+        "category":"Series 1",
+        "statement":"I just won a food-eating contest by eating more of something than anyone else.",
+        "question":"What was it?",
+        "bottom_left":"LEAST likely I'm gonna barf",
+        "bottom_right":"MOST likely I'm gonna barf"
+    },
+    {
+        "id":273,
+        "category":"Series 1",
+        "statement":"I'm on vacation and I want to remember it forever.",
+        "question":"What should I do?",
+        "bottom_left":"LEAST likely I'll get kicked out of the country",
+        "bottom_right":"MOST likely I'll get kicked out of the country"
+    },
+    {
+        "id":274,
+        "category":"Series 1",
+        "statement":"I'm lot on cash, so I've decided to test a new cosmetic.",
+        "question":"What am I testing?",
+        "bottom_left":"LEAST likely to have permanent side effects",
+        "bottom_right":"MOST likely to have permanent side effects"
+    },
+    {
+        "id":275,
+        "category":"Series 1",
+        "statement":"I just woke up in the future, but I don't know how long I've been out.",
+        "question":"What's the first thing I notice?",
+        "bottom_left":"LEAST amount of time has passed",
+        "bottom_right":"MOST amount of time has passed"
+    },
+    {
+        "id":276,
+        "category":"Series 1",
+        "statement":"I have something stuck in my hair.",
+        "question":"What's in there?",
+        "bottom_left":"LEAST likely I'll shave it all off",
+        "bottom_right":"MOST likely I'll shave it all off"
+    },
+    {
+        "id":277,
+        "category":"Series 1",
+        "statement":"I'm an up-and-coming magician.",
+        "question":"What's my signature trick?",
+        "bottom_left":"LEAST impressive",
+        "bottom_right":"MOST impressive"
+    },
+    {
+        "id":278,
+        "category":"Series 1",
+        "statement":"I'm taking pictures at my friend's wedding.",
+        "question":"What photo do I send to the happy couple?",
+        "bottom_left":"LEAST romantic",
+        "bottom_right":"MOST romantic"
+    },
+    {
+        "id":279,
+        "category":"Series 1",
+        "statement":"I'm planning a first date with someone I like.",
+        "question":"What should we do?",
+        "bottom_left":"LEAST memorable",
+        "bottom_right":"MOST memorable"
+    },
+    {
+        "id":280,
+        "category":"Series 1",
+        "statement":"I'm having trouble sleeping.",
+        "question":"What does my therapist suggest?",
+        "bottom_left":"LEAST effective",
+        "bottom_right":"MOST effective"
+    },
+    {
+        "id":281,
+        "category":"Series 1",
+        "statement":"I'm camping with my friends, and I'm telling a scary story.",
+        "question":"What's the final line?",
+        "bottom_left":"LEAST terrifying",
+        "bottom_right":"MOST terrifying"
+    },
+    {
+        "id":282,
+        "category":"Series 1",
+        "statement":"I'm tricking out my bike.",
+        "question":"How should I make it faster?",
+        "bottom_left":"LEAST effective",
+        "bottom_right":"MOST effective"
+    },
+    {
+        "id":283,
+        "category":"Series 1",
+        "statement":"I'm locked in a tiny room and discover something is already inside.",
+        "question":"What is it?",
+        "bottom_left":"LEAST likely I'll wet my pants",
+        "bottom_right":"MOST likely I'll wet my pants"
+    },
+    {
+        "id":284,
+        "category":"Series 1",
+        "statement":"I want to cancel my gym membership.",
+        "question":"What are they doing, offering, or threatening to convince me to stay?",
+        "bottom_left":"LEAST likely to keep me as a member",
+        "bottom_right":"MOST likely to keep me as a member"
+    },
+    {
+        "id":285,
+        "category":"Series 1",
+        "statement":"I'm daydreaming in class.",
+        "question":"What am I dreaming about?",
+        "bottom_left":"LEAST satisfying dream",
+        "bottom_right":"MOST satisfying dream"
+    },
+    {
+        "id":286,
+        "category":"Series 1",
+        "statement":"The waiter just brought out my food, and I'm not happy.",
+        "question":"What's wrong with it?",
+        "bottom_left":"LEAST likely I'll send it back",
+        "bottom_right":"MOST likely I'll send it back"
+    },
+    {
+        "id":287,
+        "category":"Series 1",
+        "statement":"My favorite theme park just got a new mascot.",
+        "question":"What is it?",
+        "bottom_left":"LEAST disturbing",
+        "bottom_right":"MOST disturbing"
+    },
+    {
+        "id":288,
+        "category":"Series 1",
+        "statement":"My parents are meeting my partner for the first time.",
+        "question":"What do my parents say about me?",
+        "bottom_left":"LEAST flattering",
+        "bottom_right":"MOST flattering"
+    },
+    {
+        "id":289,
+        "category":"Series 1",
+        "statement":"Someone helped free an animal at the zoo.",
+        "question":"What animal was it?",
+        "bottom_left":"LEAST likely I was the one who set it free",
+        "bottom_right":"MOST likely I was the one who set it free"
+    },
+    {
+        "id":290,
+        "category":"Series 1",
+        "statement":"Something is blocking the vents in my house, so I'm cleaning them out.",
+        "question":"What do I find in there?",
+        "bottom_left":"LEAST yucky",
+        "bottom_right":"MOST yucky"
+    },
+    {
+        "id":291,
+        "category":"Series 1",
+        "statement":"I showed up late to work.",
+        "question":"What's my excuse?",
+        "bottom_left":"LEAST likely I'll get fired",
+        "bottom_right":"MOST likely I'll get fired"
+    },
+    {
+        "id":292,
+        "category":"Series 1",
+        "statement":"Someone just left me a voicemail.",
+        "question":"What did they say?",
+        "bottom_left":"LEAST likely I'll call back",
+        "bottom_right":"MOST likely I'll call back"
+    },
+    {
+        "id":293,
+        "category":"Series 1",
+        "statement":"My roommate has an odd habit.",
+        "question":"What is it?",
+        "bottom_left":"LEAST likely to get me to move out",
+        "bottom_right":"MOST likely to get me to move out"
+    },
+    {
+        "id":294,
+        "category":"Series 1",
+        "statement":"I just got hired as a chef at a fancy restaurant, but I can't actually cook.",
+        "question":"What animal helps me make the food?",
+        "bottom_left":"LEAST likely I'll get caught",
+        "bottom_right":"MOST likely I'll get caught"
+    },
+    {
+        "id":295,
+        "category":"Series 1",
+        "statement":"I'm building a new house.",
+        "question":"What materials do I use?",
+        "bottom_left":"LEAST sturdy",
+        "bottom_right":"MOST sturdy"
+    },
+    {
+        "id":296,
+        "category":"Series 1",
+        "statement":"I'm a witch, but I've lost my broom.",
+        "question":"What should I fly on instead?",
+        "bottom_left":"LEAST likely other witches will make fun of me",
+        "bottom_right":"MOST likely other witches will make fun of me"
+    },
+    {
+        "id":297,
+        "category":"Series 1",
+        "statement":"I got a text from my partner, but it was clearly meant for someone else.",
+        "question":"What does it say?",
+        "bottom_left":"LEAST likely we'll break up",
+        "bottom_right":"MOST likely we'll break up"
+    },
+    {
+        "id":298,
+        "category":"Series 1",
+        "statement":"I've decided that I need to break up with my partner.",
+        "question":"How should I do it?",
+        "bottom_left":"LEAST hurtful",
+        "bottom_right":"MOST hurtful"
+    },
+    {
+        "id":299,
+        "category":"Series 1",
+        "statement":"I'm sending a birthday cake to my friend in prison.",
+        "question":"What should I hide in the cake to help them break out?",
+        "bottom_left":"LEAST useful",
+        "bottom_right":"MOST useful"
+    },
+    {
+        "id":300,
+        "category":"Series 1",
+        "statement":"I cut into a cake, and something came out.",
+        "question":"What is it?",
+        "bottom_left":"LEAST shocking",
+        "bottom_right":"MOST shocking"
+    }
+]
